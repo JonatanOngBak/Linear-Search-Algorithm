@@ -5,4 +5,7 @@ n = len(lista)
 x = 40
 
 result = search(lista, n, x)
-print(result)
+if(result == -1):
+    print("Elemento não está presente na lista")
+else:
+    print("Elemento está presente no índice ", result)
